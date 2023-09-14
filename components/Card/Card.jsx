@@ -2,7 +2,7 @@ import React from "react";
 import classnames from "classnames";
 
 export default function Card({ icon, iconBackgroundColor, children, className, ...rest }) {
-  const allClasses = classnames("Card", className);
+  const allClasses = classnames("card", className);
 
   const defaultIcon = <img src={`./sources/cloud_upload.svg`} alt={`cloud upload Icon`} />;
 

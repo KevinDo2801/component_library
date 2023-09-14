@@ -388,13 +388,12 @@ button.button-danger {
     }
 
     .testimonial-img {
-        height: 5rem;
         overflow: hidden;
-
+        
         margin-bottom: 1rem;
     }
-
+    
     .testimonial-img img {
-        /* width: 100%; */
+        position: static;
     }
 }
